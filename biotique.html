@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIOTIQUE</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f7b7e5, #f99ce6); /* Smooth gradient background */
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 70px;
+            color: #ffffff;
+            margin-bottom: 40px;
+            font-style: italic;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(135deg, #4a148c, #d81b60);
+            padding: 20px;
+            border-radius: 15px;
+            display: inline-block;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .flex-item {
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 45%;  /* Two items per row */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .flex-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .flex-item img {
+            width: 80%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product-info {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        .product-info a {
+            text-decoration: none;
+            color: #4A148C;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .product-info a:hover {
+            color: #D81B60;
+        }
+
+        .product-info .price {
+            font-size: 18px;
+            text-decoration: line-through;
+            color: #888;
+            margin-top: 10px;
+        }
+
+        .product-info .discount-price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #4A148C;
+            margin-top: 5px;
+        }
+
+        .product-info .tax-info {
+            font-size: 16px;
+            font-weight: bold;
+            color: #D81B60;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .flex-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>BIOTIQUE PRODUCTS</h1>
+
+    <div class="flex-container">
+        <div class="flex-item">
+            <img src="bioimg1.jpg" alt="Magicolor Lipstick">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/magicolor-lipstick" target="_blank">Biotique Natural Makeup Magicolor Lipstick</a>
+                <p class="price">MRP: ₹125</p>
+                <p class="discount-price">₹99.00</p>
+                <p class="tax-info">Tax Included: ₹111.72</p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <img src="bioimg2.jpg" alt="Magicare All Day Foundation">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/magicare-all-day-foundation" target="_blank">Magicare All Day Foundation, Gypsum, 30ml</a>
+                <p class="price">MRP: ₹140</p>
+                <p class="discount-price">₹119.00</p>
+                <p class="tax-info">Tax Included: ₹133.62</p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <img src="bioimg3.jpg" alt="Stardust Eye Shadow">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/stardust-eye-shadow" target="_blank">Stardust Eye Shadow, Moon Shadow, 7g</a>
+                <p class="price">MRP: ₹600</p>
+                <p class="discount-price">₹500.00</p>
+                <p class="tax-info">Tax Included: ₹560.00</p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <img src="bioimg4.jpg" alt="Born to Party Makeup Pouch">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/make-up-combos-born-to-party-with-makeup-pouch" target="_blank">Born to Party with Makeup Pouch</a>
+                <p class="price">MRP: ₹1,849</p>
+                <p class="discount-price">₹1,499.00</p>
+                <p class="tax-info">Tax Included: ₹1,674.72</p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <img src="bioimg5.jpg" alt="Starstruck Matte Blush">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/starstruck-matte-blush" target="_blank">Starstruck Matte Blush, Promise in Pink, 6g</a>
+                <p class="price">MRP: ₹450</p>
+                <p class="discount-price">₹350.00</p>
+                <p class="tax-info">Tax Included: ₹392.00</p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <img src="bioimg6.jpg" alt="Rejuvenating Vetiver Eau De Toilette">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/biotique-rejuvinating-vetiver-50ml" target="_blank">Rejuvenating Vetiver Eau De Toilette 50ml</a>
+                <p class="price">MRP: ₹1,500</p>
+                <p class="discount-price">₹1,250.00</p>
+                <p class="tax-info">Tax Included: ₹1,400.00</p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <img src="bioimg7.jpg" alt="Starglow Sheer Skin Illuminator">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/starglow-sheer-skin-illuminator" target="_blank">Starglow Sheer Skin Illuminator, Rose n Quartz, 4g</a>
+                <p class="price">MRP: ₹400</p>
+                <p class="discount-price">₹320.00</p>
+                <p class="tax-info">Tax Included: ₹358.00</p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <img src="bioimg8.jpg" alt="Diva Shine Lip Gloss">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/diva-shine-lip-gloss" target="_blank">Diva Shine Lip Gloss, Sugar Plum Maroon</a>
+                <p class="price">MRP: ₹499</p>
+                <p class="discount-price">₹399.00</p>
+                <p class="tax-info">Tax Included: ₹448.92</p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <img src="bioimg9.jpg" alt="Revive BXL Nourishing Pack">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/bxl-cellular-nourishing-pack" target="_blank">Revive BXL Cellular Nourishing Pack, 50g</a>
+                <p class="price">MRP: ₹999</p>
+                <p class="discount-price">₹799.00</p>
+                <p class="tax-info">Tax Included: ₹903.00</p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <img src="bioimg10.jpg" alt="Orange Peel Renewing Bathing Bar">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/orange-peel-bathing-bar" target="_blank">Orange Peel Renewing Bathing Bar</a>
+                <p class="price">MRP: ₹120</p>
+                <p class="discount-price">₹95.00</p>
+                <p class="tax-info">Tax Included: ₹106.00</p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <img src="bioimg11.jpg" alt="Diva Glimmer Eyeshadow">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/diva-glimmer-sparkling-eyeshadow" target="_blank">Diva Glimmer Sparkling Eyeshadow, Amber Blaze, 1.5g</a>
+                <p class="price">MRP: ₹440</p>
+                <p class="discount-price">₹380.00</p>
+                <p class="tax-info">Tax Included: ₹426.80</p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <img src="bioimg12.jpg" alt="Papaya Deep Cleanse Face Wash">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/papaya-deep-cleanse-face-wash" target="_blank">Papaya Deep Cleanse Face Wash</a>
+                <p class="price">MRP: ₹180</p>
+                <p class="discount-price">₹150.00</p>
+                <p class="tax-info">Tax Included: ₹168.00</p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <img src="bioimg13.jpg" alt="Magikisses Lip Balm">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/magikisses-lip-balm" target="_blank">Magikisses Lip Balm</a>
+                <p class="price">MRP: ₹150</p>
+                <p class="discount-price">₹120.00</p>
+                <p class="tax-info">Tax Included: ₹134.00</p>
+            </div>
+        </div>
+
+        <div class="flex-item">
+            <img src="bioimg14.jpg" alt="Sun Shield Bio Sunflower Matte Lotion">
+            <div class="product-info">
+                <a href="https://www.biotique.com/products/biotique-uva-uvb-lotion-100ml-sunflower-matte" target="_blank">Sun Shield Bio Sunflower Matte Ultra Soothing Body Lotion, 100ml</a>
+                <p class="price">MRP: ₹440</p>
+                <p class="discount-price">₹380.00</p>
+                <p class="tax-info">Tax Included: ₹426.80</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

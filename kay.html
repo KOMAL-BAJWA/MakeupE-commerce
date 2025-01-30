@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAY Beauty</title>
+    <style>
+        /* Overall Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(to right, #ff9a9e, #f7c6d7);
+            text-align: center;
+            color: #333;
+        }
+
+        /* Aesthetic Heading Styling */
+        h1 {
+            font-family: 'Poppins', sans-serif; /* Elegant font */
+            font-size: 75px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ec7c7c, #ec548c, #eb5fa0);
+            background-clip: text;
+            color: transparent;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), 0 0 30px rgba(255, 105, 180, 0.7);
+            padding: 20px;
+            margin-bottom: 30px;
+            display: inline-block;
+            transform: scale(1.1);
+        }
+
+        /* Flex Container Styling */
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px 10px;
+        }
+
+        /* Flex Item Styling */
+        .flex-item {
+            background: #fff;
+            border-radius: 12px;
+            padding: 15px;
+            width: 25%;  /* Smaller item width */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        /* Hover Effects */
+        .flex-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Image Styling - Very Small Size */
+        .flex-item img {
+            width: 50%;  /* Very small images */
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* Text Styling */
+        .flex-item p {
+            font-size: 16px;
+            color: #555;
+            font-weight: 500;
+            margin-top: 15px;
+        }
+
+        /* Price and Discount Styling */
+        .price {
+            color: #e74c3c;
+            font-size: 18px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .discount {
+            text-decoration: line-through;
+            color: #777;
+            margin-right: 8px;
+        }
+
+        /* Tax and Inclusion Styling */
+        .tax {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        /* Link Styling */
+        .flex-item a {
+            text-decoration: none;
+            color: #d63384;
+            font-size: 16px;
+            display: block;
+            margin-top: 15px;
+            font-weight: 600;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .flex-item {
+                width: 45%;  /* Adjust for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1><i>KAY BEAUTY</i></h1>
+
+    <div class="flex-container">
+        <!-- Product 1 -->
+        <div class="flex-item">
+            <img src="kayimg1.jpg" alt="kay1">
+            <p>Kay Beauty Velvet Creme Multi-Use Blush Tender (4.4g)</p>
+            <p class="price"><span class="discount">Rs. 4,299</span> Rs. 2,199 <span class="tax">(Incl. Taxes)</span></p>
+            <a href="https://www.nykaa.com/kay-beauty-velvet-dream-multi-use-blush/p/17395669?productId=17395669&pps=1&skuId=14488863">Buy Now</a>
+        </div>
+        <!-- Product 2 -->
+        <div class="flex-item">
+            <img src="kayimg2.jpg" alt="kay2">
+            <p>Kay Beauty Hydra Creme Lipstick - Panache</p>
+            <p class="price"><span class="discount">Rs. 3,499</span> Rs. 1,799 <span class="tax">(Incl. Taxes)</span></p>
+            <a href="https://www.nykaa.com/kay-beauty-signature-creme-lipstick-panache/p/16439255?productId=16439255&pps=2&skuId=14075611">Buy Now</a>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="flex-item">
+            <img src="kayimg3.jpg" alt="kay3">
+            <p>Kay Beauty Hydrating Foundation - 145N Medium (30g)</p>
+            <p class="price"><span class="discount">Rs. 4,499</span> Rs. 2,499 <span class="tax">(Incl. Taxes)</span></p>
+            <a href="https://www.nykaa.com/kay-beauty-hydrating-foundation/p/1229442?productId=1229442&pps=4&skuId=772973">Buy Now</a>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="flex-item">
+            <img src="kayimg4.jpg" alt="kay4">
+            <p>Kay Beauty Eye Kanvas Discover Eyeshadow Palette - Outshine (4g)</p>
+            <p class="price"><span class="discount">Rs. 4,199</span> Rs. 2,099 <span class="tax">(Incl. Taxes)</span></p>
+            <a href="https://www.nykaa.com/kay-beauty-eye-kanvas-discover-eyeshadow-palette/p/18267040?productId=18267040&pps=5&skuId=15608815">Buy Now</a>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="flex-item">
+            <img src="kayimg5.jpg" alt="kay5">
+            <p>Kay Beauty Matte Liquid Lipstick - Happily Ever After (3.5ml)</p>
+            <p class="price"><span class="discount">Rs. 3,299</span> Rs. 1,699 <span class="tax">(Incl. Taxes)</span></p>
+            <a href="https://www.nykaa.com/kay-beauty-matte-liquid-lipstick/p/9547704?productId=9547704&pps=6&skuId=4673721">Buy Now</a>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="flex-item">
+            <img src="kayimg6.jpg" alt="kay6">
+            <p>Kay Beauty Creme Blush - Cosy Coral (10ml)</p>
+            <p class="price"><span class="discount">Rs. 3,999</span> Rs. 2,199 <span class="tax">(Incl. Taxes)</span></p>
+            <a href="https://www.nykaa.com/kay-beauty-creme-blush-sweetheart-pink/p/5093150?productId=5093150&pps=7&skuId=1375810">Buy Now</a>
+        </div>
+    </div>
+
+</body>
+</html>
