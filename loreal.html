@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Oréal Paris</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: #fff;
+            margin-bottom: 30px;
+            font-weight: 600;
+            text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+            letter-spacing: 2px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .flex-item {
+            background-color: #ffffff;
+            border-radius: 15px;
+            padding: 15px;
+            width: 45%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .flex-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .flex-item img {
+            width: 60%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .flex-item a {
+            font-size: 18px;
+            color: #d80c0c;
+            font-weight: bold;
+            text-decoration: none;
+            display: block;
+            margin-top: 5px;
+        }
+
+        .price {
+            font-size: 20px;
+            color: #333;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .flex-item {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>L'Oréal Paris</h1>
+    <div class="flex-container">
+        <div class="flex-item">
+            <img src="lorealimg1.jpg" alt="Glossing Shampoo">
+            <a href="https://www.lorealparisusa.com/hair-care-hair-style/shampoo/everpure-sulfate-free-glossing-shampoo">Sulfate Free Glossing Shampoo</a>
+            <p class="price">$9.99</p>
+        </div>
+        <div class="flex-item">
+            <img src="lorealimg2.jpg" alt="Dark Spot Exfoliant">
+            <a href="https://www.lorealparisusa.com/skin-care/exfoliant/bright-reveal-dark-spot-exfoliant-peel">Dark Spot Exfoliant Peel</a>
+            <p class="price">$24.99</p>
+        </div>
+        <div class="flex-item">
+            <img src="lorealimg3.jpg" alt="Lipstick">
+            <a href="https://www.lorealparisusa.com/makeup/lip-color/lipstick/glow-paradise-balm-in-lipstick-with-pomegranate-extract">Balm-in-Lipstick</a>
+            <p class="price">$10.99</p>
+        </div>
+        <div class="flex-item">
+            <img src="lorealimg4.jpg" alt="Night Moisturizer">
+            <a href="https://www.lorealparisusa.com/skin-care/facial-moisturizers/age-perfect-rosy-tone-cooling-night-moisturizer">Rosy Tone Cooling Night Moisturizer</a>
+            <p class="price">$24.99</p>
+        </div>
+        <div class="flex-item">
+            <img src="lorealimg5.jpg" alt="Hyaluronic Acid Cream">
+            <a href="https://www.lorealparisusa.com/skin-care/facial-moisturizers/revitalift-derm-intensives-hyaluronic-acid-ceramides-water">Hyaluronic Acid + Ceramides Water Cream</a>
+            <p class="price">$32.99</p>
+        </div>
+        <div class="flex-item">
+            <img src="lorealimg6.jpg" alt="Anti-Wrinkle Cream">
+            <a href="https://www.lorealparisusa.com/skin-care/facial-moisturizers/revitalift-anti-wrinkle-firming-moisturizer-fragrance-free">Anti-Wrinkle Moisturizer</a>
+            <p class="price">$18.99</p>
+        </div>
+        <div class="flex-item">
+            <img src="lorealimg7.jpg" alt="Blush">
+            <a href="https://www.lorealparisusa.com/makeup/face/blush/true-match-blush">True Match Blush</a>
+            <p class="price">$12.99</p>
+        </div>
+        <div class="flex-item">
+            <img src="lorealimg8.jpg" alt="Matte Blush">
+            <a href="https://www.lorealparisusa.com/makeup/face/blush/infallible-fresh-wear-blush">24H Fresh Wear Matte Blush</a>
+            <p class="price">$15.99</p>
+        </div>
+        <div class="flex-item">
+            <img src="lorealimg9.avif" alt="Revitalift Serum">
+            <a href="https://www.nykaa.com/l-oreal-paris-revitalift-1-5-hyaluronic-acid-serum/p/1112060">L'Oreal Revitalift Serum</a>
+            <p class="price">$19.99</p>
+        </div>
+        <div class="flex-item">
+            <img src="lorealimg10.jpg" alt="Eye Shadow">
+            <a href="https://www.lorealparisusa.com/makeup/eye/eye-shadow/infallible-24-hr-eye-shadow">24 HR Eye Shadow</a>
+            <p class="price">$7.99</p>
+        </div>
+    </div>
+</body>
+</html>

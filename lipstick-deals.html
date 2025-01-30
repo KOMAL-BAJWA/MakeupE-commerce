@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Deals On Lipstick</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:wght@600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #ffe6f2;
+            color: #4a004d;
+        }
+        .header-container {
+            position: relative;
+            background: linear-gradient(135deg, #ff4da6, #ff1a75);
+            padding: 60px;
+            text-align: center;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('lipstickban.webp') center/cover no-repeat;
+            opacity: 0.6;
+            z-index: 0;
+        }
+        .header-container h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 50px;
+            color: #fff;
+            letter-spacing: 3px;
+            text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+            display: inline-block;
+            padding: 20px 40px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            position: relative;
+            z-index: 1;
+            border: 3px solid rgba(255, 255, 255, 0.6);
+            animation: glow 1.5s infinite alternate;
+        }
+        @keyframes glow {
+            from {
+                box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+            }
+            to {
+                box-shadow: 0 0 25px rgba(255, 255, 255, 1);
+            }
+        }
+        h3
+        {
+            color:#660033;
+            font-family: 'Playfair Display', serif;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .product {
+            background: #fff5f8;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 30%;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #e6005c;
+        }
+        .discount {
+            color: #008000;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <h2>✨ Shop The Best Deals On Lipsticks ✨</h2>
+    </div>
+    <div class="container">
+        <div class="product">
+            <a href="https://www.nykaa.com/lakme-absolute-skin-dew-satin-lipstick/p/11108948?productId=11108948&pps=3&skuId=11108919" target="_blank">
+            <img src="lipstick1.avif" alt="Nykaa Matte Lipstick"></a>
+            <h3>Lakme Absolute Skin Dew Satin Lipstick - 201 Pink Party</h3>
+            <p class="price">GLAMIFY DEAL:₹700 <span class="discount">(25% Off)</span></p>
+        </div>
+        <div class="product">
+            <a href="https://www.nykaa.com/coloressence-roseate-nudes-long-lasting-lipstick/p/16002266?productId=16002266&pps=2&skuId=16002245" target="_blank">
+            <img src="lipstick2.avif" alt="Nykaa Liquid Lipstick"></a>
+            <h3>Coloressence Roseate Nudes Long Lasting Lipstick - Fresh Bloom</h3>
+            <p class="price">GLAMIFY DEAL:₹599 <span class="discount">(15% Off)</span></p>
+        </div>
+        <div class="product">
+            <a href="https://www.nykaa.com/iba-must-have-complete-makeup-box-dusky/p/5174998?productId=5174998&pps=1" target="_blank">
+            <img src="lipstick3.avif" alt="Nykaa Creamy Lipstick"></a>
+            <h3>IBA Must Have Complete Makeup Box - Dusky</h3>
+            <p class="price">GLAMIFY DEAL:₹5516<span class="discount">(35% Off)</span></p>
+        </div>
+        <div class="product">
+            <a href="https://www.nykaa.com/dear-dahlia-paradise-dream-velvet-lip-mousse-mini-set-of-6-best-seller-collection/p/12547041?productId=12547041&pps=8" target="_blank">
+            <img src="lipstick4.avif" alt="Nykaa Velvet Lipstick"></a>
+            <h3>Dear Dahlia Paradise Dream Velvet Lip Mousse Mini Set Of 6 - Best Seller Collection</h3>
+            <p class="price">GLAMIFY DEAL:₹649 <span class="discount">(30% Off)</span></p>
+        </div>
+        <div class="product">
+            <a href="https://www.nykaa.com/earth-rhythm-lip-cheek-tint-mermaid-pack-of-2/p/8855023?productId=8855023&pps=13" target="_blank">
+            <img src="lipstick5.avif" alt="Nykaa Lip Crayon"></a>
+            <h3>Earth Rhythm Lip & Cheek Tint - Mermaid pack Of 2, Non-toxic Pigments and Long-stay</h3>
+            <p class="price">GLAMIFY DEAL:₹1650 <span class="discount">(30% Off)</span></p>
+        </div>
+        <div class="product">
+            <a href="https://www.nykaa.com/fran-wilson-moodmatcher-6-pcs-moodmatcher-collection/p/2748780?productId=2748780&pps=18" target="_blank">
+            <img src="lipstick6.avif" alt="Nykaa Gloss Lipstick"></a>
+            <h3>Fran Wilson Moodmatcher 6 Pcs Moodmatcher Collection</h3>
+            <p class="price">GLAMIFY DEAL:₹3540<span class="discount">(10% Off)</span></p>
+        </div>
+        <div class="product">
+            <a href="https://www.nykaa.com/glamveda-always-on-matte-mini-liquid-lipstick/p/13751796?productId=13751796&pps=15&skuId=12797689" target="_blank">
+            <img src="lipstick7.avif" alt="Nykaa Matte Lipstick"></a>
+            <h3>Glamveda Always On Matte Mini Liquid Lipstick - City Girl</h3>
+            <p class="price">GLAMIFY DEAL:₹1000<span class="discount">(25% Off)</span></p>
+        </div>
+        <div class="product">
+            <a href="https://www.nykaa.com/revolution-pro-supreme-stay-24h-lip-duo-lipstick/p/6794813?productId=6794813&pps=15&skuId=8516703" target="_blank">
+            <img src="lipstick8.avif" alt="Nykaa Liquid Lipstick"></a>
+             <h3>Revolution Pro Supreme Stay 24h Lip Duo Lipstick - Stripped</h3>
+            <p class="price">GLAMIFY DEAL:₹800<span class="discount">(35% Off)</span></p>
+        </div>
+        <div class="product">
+            <a href="https://www.nykaa.com/staze-cream-combo/p/18569520?productId=18569520&pps=17" target="_blank">
+            <img src="lipstick9.avif" alt="Nykaa Creamy Lipstick"></a>
+            <h3>STAZE De La Matte Lipstick Combo</h3>
+            <p class="price">GLAMIFY DEAL:₹1316 <span class="discount">(22% Off)</span></p>
+        </div>
+        <div class="product">
+            <a href="https://www.nykaa.com/swiss-beauty-hd-matte-lipstick-lipstick/p/1231613?productId=1231613&pps=6&skuId=1231603" target="_blank">
+            <img src="lipstick10.avif" alt="Nykaa Velvet Lipstick"></a>
+            <h3>Swiss Beauty HD Matte Lipstick - 15 Pink Up</h3>
+            <p class="price">GLAMIFY DEAL:₹399 <span class="discount">(25% Off)</span></p>
+        </div>
+        <div class="product">
+            <a href="https://www.nykaa.com/pilgrim-glitter-lipstick-with-matte-finish/p/18125690?productId=18125690&pps=12&skuId=18125687" target="_blank">
+            <img src="lipstick11.avif" alt="Nykaa Lip Crayon"></a>
+            <h3>Pilgrim Glitter Lipstick With Matte Finish - Chic Haseena06</h3>
+            <p class="price">GLAMIFY DEAL:₹645 <span class="discount">(20% Off)</span></p>
+        </div>
+        <div class="product">
+            <a href="https://www.nykaa.com/mars-matte-lipsticks-box/p/8930629?productId=8930629&pps=21&skuId=7867024" target="_blank">
+            <img src="lipstick12.avif" alt="Nykaa Gloss Lipstick"></a>
+            <h3>MARS Matte Lipsticks Box- Blushes Nudes</h3>
+            <p class="price">GLAMIFY DEAL:₹447 <span class="discount">(11% Off)</span></p>
+        </div>
+    </div>
+</body>
+</html>

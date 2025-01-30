@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAKME MAKEUP</title>
+   <style>
+    
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flex-item {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 15px;
+    width: 45%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flex-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.flex-item img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.flex-item a {
+    font-size: 18px;
+    color: #c2185b;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+}
+
+.price {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.discount {
+    font-size: 16px;
+    color: #e53935;
+    font-weight: bold;
+}
+
+.taxes {
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .flex-item {
+        width: 90%;
+    }
+}
+   </style>
+</head>
+<body>
+    <h1>LAKME - Beauty Beyond Boundaries</h1>
+    <div class="flex-container">
+        <div class="flex-item">
+            <img src="lakmeimg1.jpg" alt="Liquid Eye Liner">
+            <a href="https://www.lakmeindia.com/products/unreal-precision-liquid-eye-liner?variant=40499739361415">Lakmē Unreal Precision Liquid Eye Liner</a>
+            <p class="price">₹315</p>
+            <p class="taxes">(Inclusive of all taxes)</p>
+        </div>
+        <div class="flex-item">
+            <img src="lakmeimg2.jpg" alt="Creme Concealer">
+            <a href="https://www.lakmeindia.com/products/lakme-absolute-creme-concealer-3-9g?variant=40316039495815">Lakmē Absolute Creme Concealer 3.9g</a>
+            <p class="price">₹495</p>
+            <p class="taxes">(Inclusive of all taxes)</p>
+        </div>
+        <div class="flex-item">
+            <img src="lakmeimg3.jpg" alt="Vit C Superglow Concealer">
+            <a href="https://www.lakmeindia.com/products/lakme-makeup-skincare-vit-c-superglow-concealer?variant=41472606503047">Lakmē Vit C Superglow Concealer</a>
+            <p class="price">₹270</p>
+            <p class="taxes">(Inclusive of all taxes)</p>
+        </div>
+        <div class="flex-item">
+            <img src="lakmeimg4.jpg" alt="Skin Perfecting Compact">
+            <a href="https://www.lakmeindia.com/products/lakme-makeup-skincare-vitc-superglow-skin-perfecting-compact?variant=41472580747399">Lakmē VitC Superglow Skin Perfecting Compact</a>
+            <p class="price">₹315</p>
+            <p class="taxes">(Inclusive of all taxes)</p>
+        </div>
+        <div class="flex-item">
+            <img src="lakmeimg5.jpg" alt="Velvet Creme Blush">
+            <a href="https://www.lakmeindia.com/products/lakme-9-to-5-powerplay-velvet-creme-blush-soft-coral?variant=40841633824903">Lakmē 9 to 5 Powerplay Velvet Crème Blush</a>
+            <p class="price">₹449</p>
+            <p class="taxes">(Inclusive of all taxes)</p>
+        </div>
+        <div class="flex-item">
+            <img src="lakmeimg6.jpg" alt="Rouge Bloom Powder Blush">
+            <a href="https://www.lakmeindia.com/products/lakme-showstopper-collection-rouge-bloom-powder-blush?variant=41917818044551">Lakmē Showstopper Collection Rouge Bloom Powder Blush</a>
+            <p class="price">₹899</p>
+            <p class="taxes">(Inclusive of all taxes)</p>
+        </div>
+        <div class="flex-item">
+            <img src="lakmeimg7.jpg" alt="Matte Lip Liquid">
+            <a href="https://www.lakmeindia.com/products/lakme-rouge-bloom-matte-lip-liquid?variant=41917804019847">Lakmē Rouge Bloom Matte Lip Liquid</a>
+            <p class="price">₹1,199</p>
+            <p class="taxes">(Inclusive of all taxes)</p>
+        </div>
+        <div class="flex-item">
+            <img src="lakmeimg8.jpg" alt="Sun Compact">
+            <a href="https://www.lakmeindia.com/products/lakme-sun-compact">Lakmē Sun Expert Ultra Matte SPF 40 PA+++ Compact</a>
+            <p class="price">₹285</p>
+            <p class="taxes">(Inclusive of all taxes)</p>
+        </div>
+        <div class="flex-item">
+            <img src="lakmeimg10.jpg" alt="Radiance Serum">
+            <a href="https://www.lakmeindia.com/products/lakme-absolute-perfect-radiance-serum-15ml">Lakmē Absolute Perfect Radiance Serum 15ml</a>
+            <p class="price">₹269 <span class="discount">(10% Off)</span></p>
+            <p class="taxes">(Inclusive of all taxes)</p>
+        </div>
+        <div class="flex-item">
+            <img src="lakmeimg9.jpg" alt="Nail Polish Remover">
+            <a href="https://www.lakmeindia.com/products/lakme-nail-color-remover-27-ml">Lakmē Liquid Nail Polish Remover With Vitamin E</a>
+            <p class="price">₹95 <span class="discount">(4% Off)</span></p>
+            <p class="taxes">(Inclusive of all taxes)</p>
+        </div>
+    </div>
+</body>
+</html>
