@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAYBELLINE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #e1ec8d; 
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 70px;
+            color: #fff;
+            margin-bottom: 30px;
+            font-family: 'Georgia', serif;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(45deg, #e00ab1, #7452e2);
+            padding: 20px;
+            border-radius: 20px;
+            display: inline-block;
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .flex-item {
+            background-color: #ffffff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            width: 30%; /* Adjusted width for more compact layout */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .flex-item img {
+            width: 60%; /* Very small image size */
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .flex-item p {
+            font-size: 16px;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .flex-item a {
+            text-decoration: none;
+            color: #FF5722; /* Bright orange color for links */
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .flex-item a:hover {
+            color: #00bcd4;
+        }
+
+        .price {
+            font-size: 16px;
+            color: #888;
+            text-decoration: line-through;
+            margin-top: 10px;
+        }
+
+        .discount-price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #4A148C;
+            margin-top: 5px;
+        }
+
+        .tax-info {
+            font-size: 14px;
+            font-weight: bold;
+            color: #D81B60;
+            margin-top: 5px;
+        }
+
+        .flex-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .flex-item {
+                width: 45%; /* Adjusted for smaller screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .flex-item {
+                width: 90%; /* Full width on very small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MAYBELLINE PRODUCTS</h1>
+
+    <div class="flex-container">
+        <div class="flex-item">
+            <img src="mayimg1.jpg" alt="Baby Lips Lip Balm">
+            <p><a href="https://www.maybelline.com/lip-makeup/lip-balm/baby-lips-lip-makeup-crystal-moisturizing-lip-balm?variant=Pink+Quartz">Baby Lips® Crystal Moisturizing Lip Balm</a></p>
+            <p class="price">$5.49</p>
+            <p class="discount-price">$4.49</p>
+            <p class="tax-info">Tax Included: $4.99</p>
+        </div>
+        <div class="flex-item">
+            <img src="mayimg2.jpg" alt="Lifter Stix Multi-Use Stick">
+            <p><a href="https://www.maybelline.com/face-makeup/foundation-makeup/lifter-stix-multi-use-face-stick?variant=65">Lifter Stix™ Multi-Use Face Stick</a></p>
+            <p class="price">$12.99</p>
+            <p class="discount-price">$10.99</p>
+            <p class="tax-info">Tax Included: $12.15</p>
+        </div>
+        <div class="flex-item">
+            <img src="mayimg3.jpg" alt="Super Stay Skin Tint">
+            <p><a href="https://www.maybelline.com/face-makeup/foundation-makeup/super-stay-24hr-skin-tint-with-vitamin-c?variant=129">Super Stay® 24HR Skin Tint</a></p>
+            <p class="price">$17.99</p>
+            <p class="discount-price">$14.99</p>
+            <p class="tax-info">Tax Included: $16.10</p>
+        </div>
+        <div class="flex-item">
+            <img src="mayimg4.jpg" alt="Super Stay Vinyl Ink">
+            <p><a href="https://www.maybelline.com/lip-makeup/lipstick/super-stay-vinyl-ink-longwear-liquid-lipstick?variant=Red-Hot">Super Stay® Vinyl Ink® Longwear Lipstick</a></p>
+            <p class="price">$12.99</p>
+            <p class="discount-price">$9.99</p>
+            <p class="tax-info">Tax Included: $11.20</p>
+        </div>
+        <div class="flex-item">
+            <img src="mayimg5.jpg" alt="Cheek Heat Gel-Cream Blush">
+            <p><a href="https://www.maybelline.com/face-makeup/blush-and-bronzer/cheek-heat-gel-cream-blush-face-makeup?variant=Rose+Flush">Cheek Heat® Gel-Cream Blush</a></p>
+            <p class="price">$7.99</p>
+            <p class="discount-price">$6.49</p>
+            <p class="tax-info">Tax Included: $7.10</p>
+        </div>
+        <div class="flex-item">
+            <img src="mayimg6.jpg" alt="Color Sensational Matte Lipstick">
+            <p><a href="https://www.maybelline.com/lip-makeup/lipstick/color-sensational-the-mattes-matte-finish-lipstick-makeup?variant=Touch+Of+Spice">Color Sensational® Matte Lipstick</a></p>
+            <p class="price">$7.49</p>
+            <p class="discount-price">$5.99</p>
+            <p class="tax-info">Tax Included: $6.70</p>
+        </div>
+        <div class="flex-item">
+            <img src="mayimg7.jpg" alt="Lifter Lip Gloss">
+            <p><a href="https://www.maybelline.co.in/all-products/lips/lip-gloss/lifter-gloss-tinted-lip-gloss-with-hyaluronic-acid">Lifter Lip Gloss with Hyaluronic Acid</a></p>
+            <p class="price">$9.99</p>
+            <p class="discount-price">$8.49</p>
+            <p class="tax-info">Tax Included: $9.34</p>
+        </div>
+        <div class="flex-item">
+            <img src="mayimg8.jpg" alt="Blushed Nudes Eyeshadow Palette">
+            <p><a href="https://www.maybelline.co.in/all-products/eyes/eye-shadow/the-blushed-nudes-palette">The Blushed Nudes Eyeshadow Palette</a></p>
+            <p class="price">$11.99</p>
+            <p class="discount-price">$9.99</p>
+            <p class="tax-info">Tax Included: $11.18</p>
+        </div>
+        <div class="flex-item">
+            <img src="mayimg9.jpg" alt="Sensational Liquid Matte Mini Pack">
+            <p><a href="https://www.maybelline.co.in/all-products/lips/lipstick/sensational-liquid-matte-mini-pack">Sensational Liquid Matte Mini Pack</a></p>
+            <p class="price">$18.99</p>
+            <p class="discount-price">$14.99</p>
+            <p class="tax-info">Tax Included: $16.67</p>
+        </div>
+        <div class="flex-item">
+            <img src="mayimg10.jpg" alt="Fit Me Mono Blush">
+            <p><a href="https://www.maybelline.co.in/all-products/face/blush/improved-fit-me-mono-blush">Fit Me Mono Blush, 10 Brave</a></p>
+            <p class="price">$8.99</p>
+            <p class="discount-price">$7.49</p>
+            <p class="tax-info">Tax Included: $8.35</p>
+        </div>
+    </div>
+
+</body>
+</html>

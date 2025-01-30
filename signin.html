@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamify - Sign In & Sign Up</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffd1dc, #ffb6c1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .website-name {
+            margin-top:-100px; /* Remove space from the top */
+            margin-bottom: -110px; /* Reduce space between the logo and form */
+        }
+        .website-name img {
+            width: 495px;
+        }
+        .container {
+            background: #fff;
+            padding-left: 25px;
+            padding-bottom: 40px;
+            padding-right: 48px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            text-align: center;
+            border: 2px solid #d63384;
+            margin-top: 10px; /* Reduce top margin */
+        }
+        h1 {
+            color: #d63384;
+        }
+        .input-container {
+            position: relative;
+            margin: 8px 0;
+        }
+        .input-container input {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .input-container i {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #888;
+        }
+        .btn {
+            background-color: #d63384;
+            color: white;
+            border: none;
+            padding: 14px;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            
+        }
+        .btn a
+        {
+            text-decoration:none;
+        }
+        .btn:hover {
+            background-color: #b0246d;
+        }
+        .switch {
+            margin-top: 20px;
+            color: #555;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .forgot-password {
+            margin-top: 15px;
+            color: #d63384;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .signup-container {
+            margin-top: 5px;
+            padding: 15px;
+            border: 2px solid #d63384;
+            border-radius: 15px;
+            background: #fff;
+            width: 450px;
+            text-align: center;
+        }
+        .signup-container h2 {
+            color: #d63384;
+        }
+    </style>
+</head>
+<body>
+    <div class="website-name">
+        <img src="logo1.png" alt="Glamify Makeup">
+    </div>
+    <div class="container">
+        <h1 id="form-title">Sign In</h1>
+        <form id="auth-form">
+            <div class="input-container">
+                <i class="fas fa-user"></i>
+                <input type="text" id="username" placeholder="Username" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <label><input type="checkbox"> Remember Me</label>
+            <p class="forgot-password">Forgot Password?</p>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+    <div class="signup-container">
+        <h2>Don't have an account?</h2>
+        <p>Create an account now and enjoy exclusive benefits!</p>
+        <a href="signup.html" target="_blank">
+        <button class="btn">Sign Up</button>
+        </a>
+    </div>
+</body>
+</html>
+
+

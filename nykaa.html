@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYKAA COSMETICS</title>
+   <style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 55px;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 20px;
+        margin: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .flex-item {
+        background: #fff;
+        border-radius: 12px;
+        padding: 20px;
+        width: 30%;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .flex-item:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .flex-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .flex-item a {
+        font-size: 20px;
+        color: #d80c0c;
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .price {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        margin-top: 10px;
+    }
+
+    .discount {
+        font-size: 16px;
+        color: #27ae60;
+        font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+        .flex-item {
+            width: 100%;
+        }
+    }
+   </style>
+</head>
+<body>
+    <h1>NYKAA COSMETICS COLLECTION</h1>
+    <div class="flex-container">
+        <div class="flex-item">
+            <img src="img1.jpg" alt="Lip Gloss">
+            <a href="https://www.nykaa.com/mars-candylicious-colored-lip-gloss/p/15641047?productId=15641047&pps=4&skuId=15641045">Mars Candylicious Colored Lip Gloss For Women (11-Toffee Twirl )
+                (4ml)</a>
+            <p class="price">₹499 <span class="discount">20% OFF</span></p>
+        </div>
+        <div class="flex-item">
+            <img src="img2.jpg" alt="Kajal">
+            <a href="https://www.nykaa.com/maybelline-new-york-colossal-kajal-black-pack-of-2-black/p/5231448?productId=5231448&pps=5">Maybelline New York Intense Colour Colossal Matte Finish Kajal Black Pack Of 2 - Black
+                (0.35g Each)</a>
+            <p class="price">₹299 <span class="discount">15% OFF</span></p>
+        </div>
+        <div class="flex-item">
+            <img src="img3.jpg" alt="Concealer">
+            <a href="https://www.nykaa.com/l-oreal-paris-infallible-full-wear-concealer/p/648645?intcmp=nykaa%3Ahp%3Adesktop-homepage%3Adefault%3ABrand_Days_Product_1_Widgets%3APRODUCT_WIDGET_V2%3A18%3A%3A-1%3Aproduct_id%3A648645%3Apdp&pagesource=productWidget%3Adesktop-homepage%3ABrand_Days_Product_1_Widgets&skuId=648642" target="blank">LOreal Paris Infallible Full Wear Concealer, Maximum Coverage, Sweat Proof & Heat Proof - Amber 312
+                (10ml)</a>
+            <p class="price">₹899 <span class="discount">25% OFF</span></p>
+        </div>
+        <div class="flex-item">
+            <img src="img4.jpg" alt="Mascara">
+            <a href="https://www.nykaa.com/l-oreal-paris-panaroma-mascara/p/15387922?productId=15387922&pps=2" target="blank">L'Oreal Paris Voluminous Panorama Waterproof Mascara Volumizing, Clump Free, Smudge free
+                (9.4ml)</a>
+            <p class="price">₹749 <span class="discount">18% OFF</span></p>
+        </div>
+        <div class="flex-item">
+            <img src="img5.jpg" alt="Night Creme">
+            <a href="https://www.nykaa.com/lakme-youth-infinity-night-creme/p/1498452?productId=1498452&pps=1" target="blank">Lakme Retinol Advanced Renewal Night Gel Creme Pro-Retinol Peptide Complex
+                (50 g)</a>
+            <p class="price">₹599 <span class="discount">22% OFF</span></p>
+        </div>
+        <div class="flex-item">
+            <img src="img6.jpg" alt="Blush">
+            <a href="https://www.nykaa.com/pixi-on-the-glow-blush/p/5694087?productId=5694087&pps=12&skuId=5694056" target="blank">Pixi By Petra On The Glow Blush Ruby
+                (19ml)</a>
+            <p class="price">₹999 <span class="discount">30% OFF</span></p>
+        </div>
+        <div class="flex-item">
+            <img src="img7.jpg" alt="Day Cream">
+            <a href="https://www.nykaa.com/ras-luxury-oils-super-charge-multivitamin-day-cream-spf-30-infused-with-ceramides-goji-berry/p/13138331?productId=13138331&pps=6&skuId=11372626" target="black">RAS Luxury Oils Super Charge Day Cream With Multivitamin Spf 30 Pa++++ Reduces Dark Spots
+                (50 g)
+                </a>
+            <p class="price">₹1099 <span class="discount">25% OFF</span></p>
+        </div>
+        <div class="flex-item">
+            <img src="img8.jpg" alt="Compact">
+            <a href="https://www.nykaa.com/yves-saint-laurent-all-hours-hyper-finish-compact/p/16052986?productId=16052986&pps=14&skuId=16052975" target="blank">Yves Saint Laurent All Hours Hyper Finish Powder- 08
+                (7.5g)</a>
+            <p class="price">₹1299 <span class="discount">20% OFF</span></p>
+        </div>
+        <div class="flex-item">
+            <img src="img9.jpg" alt="Serum">
+            <a href="https://www.nykaa.com/l-oreal-paris-revitalift-1-5-hyaluronic-acid-serum/p/1112060?intcmp=nykaa%3Ahp%3Adesktop-homepage%3Adefault%3ABrand_Days_Product_1_Widgets%3APRODUCT_WIDGET_V2%3A18%3A%3A-1%3Aproduct_id%3A1112060%3Apdp&pagesource=productWidget%3Adesktop-homepage%3ABrand_Days_Product_1_Widgets&skuId=1112053" target="blank">L'Oreal Paris Revitalift Serum, Hydrating and Plumping, Replumps Skin in 1H, Reduces Fine Lines
+                (30ml)
+                </a>
+            <p class="price">₹799 <span class="discount">28% OFF</span></p>
+        </div>
+        <div class="flex-item">
+            <img src="img10.jpg" alt="Setting Spray">
+            <a href="https://www.nykaa.com/charlotte-tilbury-pillow-talk-iconic-blush-and-glow-kit-xmas-2024/p/16741986?productId=16741986&pps=2" target="blank">Charlotte Tilbury Pillow Talk Iconic Blush And Glow Kit
+                (41g)
+            <p class="price">₹599 <span class="discount">8% OFF</span></p>
+        </div>
+        <div class="flex-item">
+            <img src="img11.jpg" alt="Setting Spray">
+            <a href="https://www.nykaa.com/yves-saint-laurent-all-hours-hyper-finish-compact/p/16052986?productId=16052986&pps=14&skuId=16052975" target="blank">Yves Saint Laurent All Hours Hyper Finish Powder- 08
+                (7.5g)</a>
+            <p class="price">₹1599 <span class="discount">18% OFF</span></p>
+        </div>
+        <div class="flex-item">
+            <img src="img12.jpg" alt="Eyeshadow">
+            <a href="https://www.nykaa.com/charlotte-tilbury-airbrush-flawless-setting-spray-kit-xmas-2024/p/16748607?productId=16748607&pps=9" target="blank">Charlotte Tilbury Airbrush Flawless Setting Spray Kit
+                (229g)</a>
+            <p class="price">₹1999 <span class="discount">25% OFF</span></p>
+        </div>
+        <div class="flex-item">
+            <img src="img13.jpg" alt="Conditioner">
+            <a href="https://www.nykaa.com/huda-beauty-empowered-eyeshadow-palette/p/6984484?productId=6984484&pps=20" target="blank">Huda Beauty Empowered Eyeshadow Palette
+                (16.8 g)</a>
+            <p class="price">₹899 <span class="discount">22% OFF</span></p>
+        </div>
+        <div class="flex-item">
+            <img src="img14.jpg" alt="Conditioner">
+            <a href="https://www.nykaa.com/fable-mane-holiroots-conditioner/p/5083399?productId=5083399&pps=13" target="blank">Fable & Mane HoliRoots Hydrating Conditioner For Smooth Frizz-Free Hair With Coconuts And Turmeric
+                (250ml)</a>
+            <p class="price">₹999 <span class="discount">30% OFF</span></p>
+        </div>
+    </div>
+</body>
+</html>
